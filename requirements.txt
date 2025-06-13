@@ -1,0 +1,24 @@
+langchain
+langchain-community
+unstructured
+pdfminer.six
+pi_heif
+unstructured-inference
+pdf2image
+transformers==4.46.2
+einops
+timm
+torch
+torchvision
+torchaudio
+langchain-chroma
+langchain-groq
+streamlit
+uvicorn
+fastapi
+
+# Requires system installation of Poppler: https://github.com/oschwartz10612/poppler-windows/releases
+# Download the latest version and add the bin folder to your system PATH variable - C:\Program Files\poppler\Library\bin
+
+# Requires system installation of Tesseract OCR: https://github.com/UB-Mannheim/tesseract/wiki
+# Download the latest version and teh following to your system PATH variable - C:\Program Files\Tesseract-OCR\

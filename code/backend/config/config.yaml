@@ -1,0 +1,5 @@
+llm: "llama3-8b-8192"
+
+vectordb:
+  threshold: 0.5
+  n_results: 5

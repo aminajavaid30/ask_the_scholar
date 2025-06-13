@@ -1,0 +1,36 @@
+.main > div:first-child {
+    padding-top: 0.9rem !important;
+}
+
+.custom-header {
+    text-align: center;
+}
+
+.custom-header > span:first-child {
+    font-size: 2.5rem;
+    font-weight: 600; 
+    color: #4B8BBE;
+}
+
+.custom-header > span:nth-child(2) {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.custom-hr {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Chat message styling */
+.user-msg {
+    background-color: #e9ebec;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.assistant-msg {
+    background-color: #e6ecde;
+    padding: 10px;
+    border-radius: 10px;
+}
