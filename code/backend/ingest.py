@@ -155,7 +155,8 @@ class Ingestion:
                 # Add the table to documents
                 content = getattr(el, "text", "")
                 metadata = el.metadata.to_dict() if hasattr(el, "metadata") else {}
-                self.documents.append(Document(page_content=content, metadata=metadata))
+                metadata["category"] = el.category
+                documents.append(Document(page_content=content, metadata=metadata))
             else:
                 content = getattr(el, "text", "")
                 metadata = el.metadata.to_dict() if hasattr(el, "metadata") else {}
